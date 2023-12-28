@@ -18,42 +18,128 @@
     <title>HomePage</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg menu-style">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Feben T.</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="bio.html">My Bio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="hobbies.html">My Hobbies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="contacts.html">My Contacts</a>
-              </li>
-            </ul>
+    <div class="body-wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg menu-style">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Feben T.</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="bio.html">My Bio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="hobbies.html">My Hobbies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contacts.html"
+                    >My Contacts</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="container-md text-center mt-4">
+          <div class="row mt-4">
+            <div class="col">
+              <img
+                src="/images/bonsai-tree.jpg"
+                alt="bonsai-tree"
+                class="home-hero img-fluid img-thumbnail"
+              />
+            </div>
+            <div class="col d-flex flex-column">
+              <div class="h-50 border hero-text justify-content-center shadow">
+                my name is feben and i am learning front-end web development.
+                among other things...
+              </div>
+              <div class="h-50 border hero-text justify-content-center shadow">
+                this website gives a little insight about me as a person. it is
+                not about work. but if it was...these are my works..
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col hero-bottom align-self-center">
+                <h1>A WEATHER APP</h1>
+              </div>
+              <div class="col">
+                <img
+                  src="images/weather-app.png"
+                  alt=""
+                  width="400px"
+                  class="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <img
+                  src="images/dundies-page.png"
+                  alt=""
+                  width="400px"
+                  class="img-fluid img-thumbnail"
+                />
+              </div>
+              <div class="col hero-bottom align-self-center">
+                <h1>A LANDING PAGE</h1>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <main></main>
+      </main>
+      <footer class="d-flex justify-content-evenly footer-wrapper">
+        <div>
+          © Copyright 2023 Feben Tibebe. (Seriously, I made this.) Powered by
+          <a href="https://github.com/Feben9/Hobi">Github</a> and
+          <a href="https://app.netlify.com"> Netlify </a>(and potato chips 😋)
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href="mailto:feben7351@gmail.com">
+                <img
+                  width="40"
+                  height="40"
+                  src="/images/icons8-post-50.png"
+                  alt="email"
+                  title="Icon by icons8.com"
+                />
+              </a>
+            </li>
+            <li>
+              <img
+                width="40"
+                height="40"
+                src="/images/icons8-phone.svg"
+                alt="phone"
+                title="Icon by icons8.com"
+              />
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
