@@ -7,23 +7,34 @@
     }
 }
 
+:root {
+    --primary-color: #8109b7;
+    --secondary-color: #0c1845;
+    --btn-text-color: #ff41ed;
+    --other-bg-color: #f1f1f1;
+    --default-font-family: "Roboto slab", serif;
+    --title-font-family: Roboto, sans-serif;
+}
+
 body {
-    /*background: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);*/
-    /*background: linear-gradient(88.8deg, rgb(239, 171, 245) 13.4%, rgb(196, 181, 249) 76.3%);*/
-    background: linear-gradient(12.3deg, rgb(234, 172, 232) 54%, rgb(246, 219, 245) 89%);
+        background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
 }
 
 main{
-    font-family: "Robot slab", serif;
+    font-family: var(--default-font-family);
+}
+
+main h1, h2 {
+    font-family: var(--title-font-family);
+    font-weight: 700;
 }
 
 .body-wrapper {
     margin: 25px auto;
 }
 .menu-style {
-    border: 1px solid rgb(190, 139, 238);
+    border: 1px solid var(--primary-color);
     border-radius: 25px;
-    /*max-width: 1000px;*/
     margin: 25px;
 }
 .home-hero {
@@ -32,20 +43,24 @@ main{
 }
 
 .hero-text {
-    background-color:mistyrose;
+    background-color: var(--other-bg-color);
     border-radius: 25px;
     margin: 10px 0px;
-    font-family: "Roboto slab", serif;
+    font-family: var(--default-font-family);
 }
 
 .hero-bottom {
     height: 100px;
 }
 
+.hero-bottom i {
+    color: var(--primary-color);
+}
+
 .footer-wrapper {
     padding: 10px;
     margin: 30px;
-    border: 1px solid rgb(190, 139, 238);
+    border: 1px solid var(--primary-color);
     border-radius: 25px;
 }
 
@@ -90,7 +105,7 @@ main{
     width:600px;
     margin: 15px auto;
     font-size: 34px;
-    background-color:blanchedalmond;
+    background-color: var(--other-bg-color);
     border-radius: 15px;
 }
 
