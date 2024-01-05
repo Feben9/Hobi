@@ -1,6 +1,6 @@
-@media screen and (min-width: 760px) {
+@media screen and (max-width: 760px) {
     .hero-text{
-        font-size: 28px;
+        font-size: 18px !important;
     }
     .bio-text {
         font-size: 870px;
@@ -32,11 +32,13 @@ main h1, h2 {
 .body-wrapper {
     margin: 25px auto;
 }
+
 .menu-style {
     border: 1px solid var(--primary-color);
     border-radius: 25px;
     margin: 25px;
 }
+
 .home-hero {
     width: 75%;
     height: auto;
@@ -44,9 +46,10 @@ main h1, h2 {
 
 .hero-text {
     background-color: var(--other-bg-color);
+    font-family: var(--default-font-family);
     border-radius: 25px;
     margin: 10px 0px;
-    font-family: var(--default-font-family);
+    font-size: 24px;
 }
 
 .hero-bottom {
@@ -92,8 +95,8 @@ main h1, h2 {
 }
 
 .bottom-hero {
-    width: auto;
-    height: 35vh;
+    
+    width: 100%;
 }
 
 .fit {
