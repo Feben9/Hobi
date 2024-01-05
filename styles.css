@@ -2,9 +2,10 @@
     .hero-text{
         font-size: 18px !important;
     }
-    .bio-text {
-        font-size: 870px;
+    .bio-intro {
+        font-size: 18px !important;        
     }
+
 }
 
 :root {
@@ -85,18 +86,23 @@ main h1, h2 {
 }
 
 .bio-intro {
-    padding: 25px;
+    padding: 30px;
     font-size: 22px;
+}
+
+.bio-main ul {
+    list-style-type: none;
+}
+
+.bio-main strong {
+    color: var(--secondary-color);
+    font-family: var(--title-font-family);
+    font-size: 18px;
 }
 
 .my-photo {
     width: auto;
     height: 40vh;
-}
-
-.bottom-hero {
-    
-    width: 100%;
 }
 
 .fit {
