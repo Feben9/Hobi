@@ -5,7 +5,10 @@
     .bio-intro {
         font-size: 18px !important;        
     }
-
+    .contacts-text {
+        font-size: 28px !important;
+    }
+    
 }
 
 :root {
@@ -111,8 +114,8 @@ main h1, h2 {
 }
 
 .contacts-text {
-    width:600px;
-    margin: 15px auto;
+    width: 600px;
+    margin: 25px auto;
     font-size: 34px;
     background-color: var(--other-bg-color);
     border-radius: 15px;
@@ -120,5 +123,9 @@ main h1, h2 {
 
 .contacts-links {
     text-decoration: none;
-    color: black;
+    color: var(--btn-text-color);
+}
+
+.btn-color {
+    background-color: var(--secondary-color);
 }
